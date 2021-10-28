@@ -16,7 +16,7 @@
 </head>
 <body>
     <div class="header">
-        <p>Home</p>
+        <a href="<?php bloginfo('url'); ?>">Hoome</a>
         <?php get_search_form(); ?>
         <p>F.A.Q.</p>
     </div>

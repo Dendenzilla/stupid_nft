@@ -21,7 +21,10 @@ get_header(); ?>
                     <div class="🧩__infos">
                         <p>Chair #10</p>
                         <p> 0.456 ETH<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/480px-Ethereum-icon-purple.svg.png" class="emoji" alt="ethereum icon"></p>
-                        <button>BUY</button>
+                        <div>
+                            <button>BUY</button>
+                            <span></span>
+                        </div>   
                     </div>
                     
                 </div>
@@ -35,7 +38,10 @@ get_header(); ?>
                     <div class="🧩__infos">
                         <p>Chair #1</p>
                         <p><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/480px-Ethereum-icon-purple.svg.png" class="emoji" alt="ethereum icon"> 0.456 ETH</p>
-                        <button>BUY</button>
+                        <div>
+                            <button>BUY</button>
+                            <span></span>
+                        </div>
                     </div>
                     
                 </div>
@@ -49,7 +55,10 @@ get_header(); ?>
                     <div class="🧩__infos">
                         <p>Chair #1</p>
                         <p> 0.456 ETH<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/480px-Ethereum-icon-purple.svg.png" class="emoji" alt="ethereum icon"></p>
-                        <button>BUY</button>
+                        <div>
+                            <button>BUY</button>
+                            <span></span>
+                        </div>
                     </div>
                 </div>
                 <div class="🧩">
@@ -62,7 +71,10 @@ get_header(); ?>
                     <div class="🧩__infos">
                         <p>Chair #1</p>
                         <p> 0.456 ETH<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/480px-Ethereum-icon-purple.svg.png" class="emoji" alt="ethereum icon"></p>
-                        <button>BUY</button>
+                        <div>
+                            <button>BUY</button>
+                            <span></span>
+                        </div>
                     </div>
                 </div>
             </div>
