@@ -1,0 +1,78 @@
+.🎩{
+    text-align: center;
+    max-width: 45rem;
+    margin: auto;
+    & h1{
+        font-size: 7rem;
+        line-height: 5.5rem;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 2rem 0;
+        color: hsl(180, 48%, 38%);
+        text-shadow: -4px 4px teal;
+        & span {
+            text-shadow: none;
+            background-image: url('https://thumbs.dreamstime.com/z/dollars-27738711.jpg');
+            background-clip: text;
+            color: transparent;
+            background-size: cover;
+        }
+    }
+}
+.💵{
+    max-width: 70rem;
+    margin: auto;
+    & .🖼{
+        width: 100%;
+        display: flex;
+        gap: 10px;
+        & .🧩{
+            width: 25%;
+            min-height: 10rem;
+            background: conic-gradient(from -90deg at 50% 135%, white, orchid);
+            border-radius: 20px;
+            text-align: center;
+            border:1px solid deeppink;
+            &__img{
+                padding: 1rem;
+            }
+            &__infos{
+                background-color: rgba($color: #2e2d2d, $alpha: 0.2);
+                border-radius: 0 0 20px 20px;
+                padding: 1rem 0;
+                font-weight:500;
+                font-size: 1.4rem;
+                line-height: 0.7rem;
+                color: white;
+                & p{
+                    margin: 0.5rem;
+                }
+                & p+p {
+                    display: inline-block;
+                    position: relative;
+                }
+            }
+            & picture img, picture source{
+                max-width: 100%;
+                max-height: 30vh;
+            }
+            & img.emoji{
+                width: 20px;
+                position: absolute;
+                right: -25px;
+                top: -5px;
+            }
+            & button{
+                padding: .5rem 2rem;
+                min-width: 60%;
+                margin-top: .5rem;
+                border-radius: 25px;
+                background: conic-gradient(from 90deg at bottom right, cyan, rebeccapurple);
+                border: none;
+                color: white;
+                font-weight: bold;
+                cursor: pointer;
+            }
+        }
+    }
+}
