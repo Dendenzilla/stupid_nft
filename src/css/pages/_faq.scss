@@ -1,10 +1,21 @@
 section.faq{
     padding-top: 2rem;
+    & h2{
+        font-size: 2.5rem;
+        display: block;
+        position: relative;
+        font-family: 'Fjalla One', sans-serif;
+        transform: skew(-10deg);
+        display: block;
+        color: $red;
+        text-shadow: $shadow 1px 1px, $shadow 2px 2px;
+        min-width: 10px;
+        min-height: 10px;
+        position: relative;
+    }
+    & p{
+        color: white;
+    }
 }
-.retroTitle{
-    font-family: "Arial Black";
-    font-weight: bold;
-    font-size: 3rem;
-    text-shadow: 3px 2px #7dfad7, 5px 4px white;
-    color: #11adad;
-}
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+
