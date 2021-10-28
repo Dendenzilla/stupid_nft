@@ -16,9 +16,9 @@
 </head>
 <body>
     <div class="header">
-        <a href="<?php bloginfo('url'); ?>">Hoome</a>
+        <a href="<?php bloginfo('url'); ?>">Home</a>
         <?php get_search_form(); ?>
-        <p>F.A.Q.</p>
+        <a href="<?php bloginfo('url'); ?>/faq">F.A.Q.</a>
     </div>
     <!-- FIN HEADER -->
     <!-- DEBUT MAIN CONT -->

@@ -1,10 +1,20 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
+*{
+    &::selection{
+        background:rgba(0,0,0,0.5);
+        color: deeppink;
+    }
+}
 main {
     min-height: 100VH;
     padding-top: 8rem;
     background: conic-gradient(at 125% 50%, #b78cf7, #ff7c94, #ffcf0d, #ff7c94, #b78cf7);
+}
+section {
+    max-width: 60rem;
+    margin: auto;
 }
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
