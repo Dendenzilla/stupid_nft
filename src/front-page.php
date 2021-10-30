@@ -12,7 +12,7 @@ get_header(); ?>
             <p>filter items</p>
             <div class="🖼">
                 <?php $args_query = array(
-                        'post_type' => 'token',
+                        'post_type' => 'product',
                         'posts_per_page' => 6,
                         'order' => 'DESC'
                         );
@@ -27,12 +27,14 @@ get_header(); ?>
                                 </picture>
                             </div>
                             <div class="🧩__infos">
-                                <p><?php the_field('name'); ?></p>
-                                <p> <?php the_field('price'); ?> ETH<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/480px-Ethereum-icon-purple.svg.png" class="emoji" alt="ethereum icon"></p>
+                                <p>&nbsp;<?php the_field('name'); ?></p>
+                                <p>&nbsp;<?php the_field('price'); ?> ETH<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/480px-Ethereum-icon-purple.svg.png" class="emoji" alt="ethereum icon"></p>
                                 <div>
-                                    <button>BUY</button>
+                                    <a href="<?php $add_to_cart = do_shortcode('[add_to_cart_url id="'.$post->ID.'"]');
+                                    echo $add_to_cart; ?>" class="🧩--add-to-cart">Buy</a>
                                     <span></span>
-                                </div>   
+                                </div>
+                                
                             </div>
                         </div>
                     <?php endwhile; ?>

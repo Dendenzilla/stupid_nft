@@ -7,3 +7,8 @@ add_action( 'init', 'wpb_custom_new_menu' );
 
 //add featured image
 add_theme_support( 'post-thumbnails' );
+
+add_filter('ai1wm_exclude_content_from_export', function($exclude_filters) {
+  $exclude_filters[] = 'themes/dkb-stupid-nft/node_modules';
+  return $exclude_filters;
+});

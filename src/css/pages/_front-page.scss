@@ -26,9 +26,10 @@
     & .🖼{
         width: 100%;
         display: flex;
+        flex-wrap: wrap;
         gap: 10px;
         & .🧩{
-            width: 25%;
+            width: calc((100% - 30px)/4);
             min-height: 10rem;
             background: conic-gradient(from -90deg at 50% 135%, white, orchid);
             border-radius: 20px;
@@ -59,7 +60,7 @@
                     margin-top: .5rem;
                     min-width: 60%;
                 }
-                & button{
+                & a.🧩--add-to-cart, button{
                     position: relative;
                     overflow: hidden;
                     padding: .5rem 2rem;
@@ -106,6 +107,12 @@
                         border-radius: 25px;
                         z-index: 7;
                     }
+                }
+                & a.🧩--add-to-cart{
+                    display: block;
+                    padding: 1rem 2rem;
+                    text-decoration: none;
+                    text-transform: uppercase;
                 }
             }
             & picture img, picture source{
